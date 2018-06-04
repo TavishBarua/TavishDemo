@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".slide"
+    android:background="@drawable/background"
+
+    >
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/slide_vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </android.support.v4.view.ViewPager>
+    <LinearLayout
+        android:id="@+id/dots_layout"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+       >
+
+        <Button
+            android:id="@+id/btn_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="5dp"
+            android:background="@null"
+            android:text="Prev"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom"
+            android:background="@null"
+            android:layout_marginRight="5dp"
+            android:shadowColor="@color/cardview_shadow_start_color"
+            android:text="Next"
+            android:textAllCaps="true"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            app:srcCompat="@drawable/img_cart"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            app:srcCompat="@drawable/img_grad_cap"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            app:srcCompat="@drawable/img_road_sign"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</RelativeLayout>

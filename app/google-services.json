@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "167703912651",
+    "firebase_url": "https://tavishdemo-ef24a.firebaseio.com",
+    "project_id": "tavishdemo-ef24a",
+    "storage_bucket": "tavishdemo-ef24a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167703912651:android:1c990ac96dc4624f",
+        "android_client_info": {
+          "package_name": "com.demo.tavish.tavishdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167703912651-vkrrqstpaeblfb3tf3vdb30r9qgapf1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.demo.tavish.tavishdemo",
+            "certificate_hash": "64ecccf6287a64103ad52113120a000ff3b98b86"
+          }
+        },
+        {
+          "client_id": "167703912651-khqqp29963lcqroje0g2bja43rih7gqq.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "167703912651-khqqp29963lcqroje0g2bja43rih7gqq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJnT1H1XAFwbmcNEYlAj7AhcHUZT_Bkms"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167703912651-khqqp29963lcqroje0g2bja43rih7gqq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
